@@ -1,0 +1,57 @@
+@media only screen and (max-width:900px) {
+    .store-section .store {
+        grid-template-columns: repeat(auto-fill, minmax(150px, auto));
+        gap: 1.5rem;
+    }
+  }
+
+@media only screen and (max-width:800px) {
+    .banner {
+        flex-direction: column;
+        font-size: 1.8rem;
+    }
+  
+.banner img {
+    width: 60vw;
+    margin: 1rem;
+}
+}
+
+@media only screen and (max-width:500px) {
+    .store-section .store {
+        grid-template-columns: repeat(auto-fill, minmax(120px, auto));
+        gap: 1rem;
+    }
+    .footer {
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .footer .sides {
+        margin: 1rem;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+
+    .banner {
+        font-size: 1.5rem;
+    } 
+    .banner .text small {
+        font-size: 1.3rem;
+    }
+    .banner .text .contact-btn {
+        padding: .4rem 1.4rem;
+        font-size: 1.1rem;
+    }
+    .banner img {
+        width: 80vw;
+        margin: 1rem;
+    }
+}
+@media only screen and (max-width:350px) {
+ .store-section .store {
+        grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+        gap: 1rem;
+    }
+}

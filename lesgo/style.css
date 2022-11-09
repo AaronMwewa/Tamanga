@@ -1,0 +1,189 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --color-dark: #fc7643;
+}
+
+
+.felix {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 2rem;
+    color: #f75819;
+
+}
+
+.header img {
+    width: 50px;
+    background-color: #f75819c4;
+    border-radius: 60% 60% 40% 40%;
+    transform: scaleX(-1);
+}
+
+.banner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.banner .text {
+    position: relative;
+}
+
+.banner .text span {
+    color: #f75819;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.banner .text small {
+    font-size: 2.2rem;
+    color: #f75819;
+}
+
+.banner .text .contact-btn {
+    padding: .5rem 2.5rem;
+    margin: 1rem 0 0 0;
+    background-color: #fc7643;
+    font-size: 1.5rem;
+    border-radius: 70px;
+    transition: all ease-in-out .5s;
+}
+
+.banner .text .contact-btn:hover {
+    background-color: #ffffff;
+    color: #f75819;
+    border: #f75819 solid 1px;
+
+}
+
+.banner img {
+    width: 40vw;
+}
+
+
+.store-section {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.store-section h2 {
+    text-align: center;
+    font-family: var(--font-accent);
+    font-weight: 500;
+    color: var(--color-dark);
+    font-size: 2.5rem;
+}
+
+.store-section .store {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.store-section .store .card {
+    background-color: var(--color-grey);
+    border-radius: 1rem;
+    box-shadow: 1px 2px 10px var(--color-dark);
+    overflow: hidden;
+}
+
+.store-section .store .card img {
+    width: 100%;
+    aspect-ratio: 1/.5;
+    object-fit: cover;
+}
+
+.store-section .store .card .info {
+    padding: .5rem;
+}
+
+.store-section .store .card .sell {
+    padding: .5rem 0;
+    justify-content: space-between;
+}
+
+.store-section .store .card .sell a.order {
+    background-color: #fc7643;
+    padding: .1rem .4rem;
+    border-radius: .9rem;
+    color: #fff;
+}
+
+.ready-to-order {
+    width: 100%;
+    text-align: center;
+    border-top: #f75819 solid 2px;
+    border-bottom: #f75819 solid 2px;
+    padding: 1rem;
+    background-color: #00000023;
+}
+
+.ready-to-order h1 {
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 1rem;
+    color: #f75819;
+}
+
+.ready-to-order a {
+    padding: .5rem 2.5rem;
+    border-radius: 100px;
+    color: #ffffff;
+    background-color: #f75819;
+    font-size: 1.2rem;
+    transition: all ease-in-out .5s;
+}
+
+.ready-to-order a:hover {
+    background-color: #ffffff;
+    color: #f75819;
+    border: #f75819 solid 1px;
+
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: space-around;
+}
+
+.footer .sides {
+    flex-basis: 40%;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.footer h4 {
+    color: var(--color-dark);
+    text-transform: uppercase;
+}
